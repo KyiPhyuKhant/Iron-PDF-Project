@@ -1,10 +1,37 @@
+@font-face {
+    font-family: "Gotham";
+    src: url(fonts/GothamLight.ttf) format("ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
 body {
     background: #2C0F29;
+    font-family: "Gotham";
 }
 
 .container {
     width: 1170px;
 }
+
+span.badge {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 24px;
+    gap: 10px;
+    width: 158px;
+    height: 36px;
+    background: #331433;
+    border-radius: 126px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    color: #C6AAC6;
+}
+
 
 .pdf_banner {
     color: #fff;
@@ -15,12 +42,54 @@ body {
     margin-left: auto; */
 }
 
+.banner_text {
+    padding: 120px 0 30px;
+}
+
 .sign_up_form {
     /* position: absolute; */
     /* height: 327px; */
     /* left: 105px; */
     /* top: 475px; */
     background: linear-gradient(90deg, #8E608E 28.16%, #402640 67.82%, #371A34 83.75%);
+}
+
+.sign_up_form form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px 10px;
+    width: 530px;
+    height: 64px;
+    background: #FFFFFF;
+    border: 3px solid #C6AAC6;
+    border-radius: 81px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.sign_up_form form input.form-control {
+    border: 0;
+}
+
+.sign_up_form button.btn.btn-primary {
+    background: #e01a59;
+    color: #fff;
+    padding: 2px 20px 0;
+    border: 0 !important;
+    transition: all .2s;
+    border-radius: 40px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    height: 54px;
+    line-height: 50px;
+    font-size: 14px;
+    font-family: Gotham-Bold;
+    vertical-align: middle;
+    float: right;
 }
 
 img.banner-top-image {
@@ -43,6 +112,7 @@ img.banner-top-image {
 .why_make_wrap {
     background: #402640;
     color: #fff;
+    padding: 100px 0;
 }
 
 .access_wrap {
@@ -51,6 +121,7 @@ img.banner-top-image {
     background-position: center center;
     background-size: cover;
     color: #fff;
+    padding: 80px 0;
 }
 
 footer {
