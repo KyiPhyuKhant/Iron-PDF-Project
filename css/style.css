@@ -6,6 +6,30 @@ body {
     width: 1170px;
 }
 
+.pdf_banner {
+    color: #fff;
+    /* width: 1390px;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto; */
+}
+
+.sign_up_form {
+    /* position: absolute; */
+    /* height: 327px; */
+    /* left: 105px; */
+    /* top: 475px; */
+    background: linear-gradient(90deg, #8E608E 28.16%, #402640 67.82%, #371A34 83.75%);
+}
+
+img.banner-top-image {
+    width: 543px;
+    top: 7px;
+    right: 0;
+    position: absolute;
+}
+
 .coming_wrap {
     background: #2C0F29;
     color: #fff;
