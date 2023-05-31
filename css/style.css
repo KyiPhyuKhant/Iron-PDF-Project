@@ -6,7 +6,30 @@ body {
     width: 1170px;
 }
 
-footer{
+.coming_wrap {
+    background: #2C0F29;
+    color: #fff;
+}
+
+.para_wrap {
+    background: #170617;
+    color: #fff;
+}
+
+.why_make_wrap {
+    background: #402640;
+    color: #fff;
+}
+
+.access_wrap {
+    background-image: url('../img/access_bg.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+}
+
+footer {
     background: #170617;
     color: #fff;
 }
