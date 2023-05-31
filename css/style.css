@@ -11,6 +11,23 @@ body {
     font-family: "Gotham";
 }
 
+h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
 .container {
     width: 1170px;
 }
@@ -110,6 +127,7 @@ img.banner-top-image {
     padding: 100px 0;
 }
 
+/* Early Access section styling */
 .access_wrap {
     background-image: url('../img/access_bg.svg');
     background-repeat: no-repeat;
@@ -124,13 +142,41 @@ img.banner-top-image {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 23px 30px;
-    gap: 30px;
-    /* width: 383.33px; */
-    height: 88px;
+    padding: 23px 10px;
+    height: 80px;
     background: rgba(23, 6, 23, 0.8);
     border: 3px solid #331433;
     border-radius: 122px;
+}
+
+.access_wrap .card .card-body .row {
+    display: flex;
+    align-items: center;
+}
+
+.access_wrap .card .badge {
+    padding: 4px 24px;
+    width: 125px;
+    height: 34px;
+    background: #C6AAC6;
+    border-radius: 126px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 26px;
+    color: #331433;
+}
+
+.access_wrap .card .badge.coming-soon {
+    width: 150px;
+    height: 34px;
+    background: #331433;
+    color: #C6AAC6;
+}
+
+.access_wrap .card img.card-img-top {
+    width: 112px;
+    height: auto;
 }
 
 /* Footer styling */
