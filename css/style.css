@@ -15,6 +15,10 @@ body {
     width: 1170px;
 }
 
+.form-control:focus {
+    box-shadow: none;
+}
+
 span.badge {
     display: flex;
     flex-direction: row;
@@ -35,11 +39,6 @@ span.badge {
 
 .pdf_banner {
     color: #fff;
-    /* width: 1390px;
-    padding-right: var(--bs-gutter-x, .75rem);
-    padding-left: var(--bs-gutter-x, .75rem);
-    margin-right: auto;
-    margin-left: auto; */
 }
 
 .banner_text {
@@ -47,10 +46,6 @@ span.badge {
 }
 
 .sign_up_form {
-    /* position: absolute; */
-    /* height: 327px; */
-    /* left: 105px; */
-    /* top: 475px; */
     background: linear-gradient(90deg, #8E608E 28.16%, #402640 67.82%, #371A34 83.75%);
 }
 
@@ -124,7 +119,72 @@ img.banner-top-image {
     padding: 80px 0;
 }
 
+.access_wrap .card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 23px 30px;
+    gap: 30px;
+    /* width: 383.33px; */
+    height: 88px;
+    background: rgba(23, 6, 23, 0.8);
+    border: 3px solid #331433;
+    border-radius: 122px;
+}
+
+/* Footer styling */
 footer {
     background: #170617;
     color: #fff;
+}
+
+footer h2 {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+span.header_color {
+    color: #C6AAC6;
+}
+
+.footer form {
+    margin: 30px auto 0;
+    box-sizing: border-box;
+    padding: 3px 3px 3px 26px;
+    width: 600px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 3px solid #E7EEF0;
+    border-radius: 81px;
+}
+
+.footer form input.form-control {
+    border: 0;
+    padding: 12px 0;
+    background: transparent;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #181818;
+}
+
+.footer button.btn.btn-primary {
+    border: 0 !important;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    vertical-align: middle;
+    padding: 0px 20px;
+    width: 180px;
+    height: 50px;
+    background: #E01A59;
+    border-radius: 27px;
+    margin-top: -3px;
 }
