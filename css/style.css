@@ -344,8 +344,18 @@ span.header_color {
     border: 3px solid #E7EEF0;
     border-radius: 81px;
 }
+.footer form {
+    align-items: center;
+    padding: 0px 0px 0px 10px;
+    width: 530px;
+    height: 64px;
+    background: #FFFFFF;
+    border: 3px solid #C6AAC6;
+    border-radius: 81px;
+    margin: 25px auto;
+}
 
-.footer form input.form-control {
+/* .footer form input.form-control {
     border: 0;
     padding: 12px 0;
     background: transparent;
@@ -359,7 +369,6 @@ span.header_color {
     border: 0 !important;
     text-decoration: none;
     text-align: center;
-    /* line-height: 50px; */
     font-size: 14px;
     vertical-align: middle;
     padding: 0px 20px;
@@ -368,6 +377,42 @@ span.header_color {
     background: #E01A59;
     border-radius: 27px;
     margin-top: -3px;
+}
+
+.footer button:hover {
+    background: #c9041e !important;
+    border-color: #c9041e !important;
+    color: #fff;
+} */
+
+
+
+.footer form input.form-control {
+    border: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #431F43;
+}
+
+.footer button.btn.btn-primary {
+    background: #e01a59;
+    padding: 2px 20px 0;
+    border: 0 !important;
+    transition: all .2s;
+    border-radius: 40px;
+    text-decoration: none;
+    height: 54px;
+    vertical-align: middle;
+    float: right;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .footer button:hover {
