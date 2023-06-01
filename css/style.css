@@ -28,6 +28,10 @@ p {
     margin: 0;
 }
 
+span.p_color {
+    font-weight: 500;
+}
+
 .container {
     width: 1170px;
 }
@@ -111,9 +115,35 @@ img.banner-top-image {
     position: absolute;
 }
 
+/* coming soon section styling */
 .coming_wrap {
     background: #2C0F29;
     color: #fff;
+}
+
+.coming_wrap-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.coming_wrap h1 {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.coming_wrap .badge-tag {
+    top: -49px;
+    right: 25%;
+    left: auto;
+    width: 185px;
+    position: absolute;
+}
+
+.coming_wrap-list li {
+    color: #402640;
+    display: inline-block;
+    margin: 0 2% 20px 0;
 }
 
 /* C++ PDF section styling */
