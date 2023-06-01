@@ -359,7 +359,7 @@ span.header_color {
     border: 0 !important;
     text-decoration: none;
     text-align: center;
-    line-height: 50px;
+    /* line-height: 50px; */
     font-size: 14px;
     vertical-align: middle;
     padding: 0px 20px;
