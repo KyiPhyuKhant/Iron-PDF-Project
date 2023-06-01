@@ -62,6 +62,13 @@ span.badge {
     color: #fff;
 }
 
+img.banner-top-image {
+    width: 543px;
+    top: 7px;
+    right: 0;
+    position: absolute;
+}
+
 .banner_text {
     padding: 120px 0 30px;
 }
@@ -71,9 +78,6 @@ span.badge {
 }
 
 .sign_up_form form {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     padding: 0px 0px 0px 10px;
     width: 530px;
@@ -81,38 +85,62 @@ span.badge {
     background: #FFFFFF;
     border: 3px solid #C6AAC6;
     border-radius: 81px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    margin: 25px 0;
 }
 
 .sign_up_form form input.form-control {
     border: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #431F43;
 }
 
 .sign_up_form button.btn.btn-primary {
     background: #e01a59;
-    color: #fff;
     padding: 2px 20px 0;
     border: 0 !important;
     transition: all .2s;
     border-radius: 40px;
-    display: inline-block;
     text-decoration: none;
-    text-align: center;
     height: 54px;
-    line-height: 50px;
-    font-size: 14px;
-    font-family: Gotham-Bold;
     vertical-align: middle;
     float: right;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
 }
 
-img.banner-top-image {
-    width: 543px;
-    top: 7px;
-    right: 0;
-    position: absolute;
+i.fa.fa-caret-right:before {
+    content: "\f0da";
+}
+
+i.fa.fa-caret-right {
+    position: relative;
+    left: 7px;
+    top: 1px;
+}
+
+.sign_up_form h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.sign_up_form span.badge {
+    padding: 2px 18px;
+    width: 146px;
+    height: 32px;
+    background: #C6AAC6;
+    font-weight: 700;
+    font-size: 13px;
+    color: #8F618F;
+    margin-right: 10px;
+    float: left;
 }
 
 /* coming soon section styling */
