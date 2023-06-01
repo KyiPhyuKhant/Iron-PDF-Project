@@ -21,7 +21,7 @@ h1 {
 
 p {
     font-style: normal;
-    font-weight: 300;
+    font-weight: 100;
     font-size: 15px;
     line-height: 28px;
     color: #FFFFFF;
@@ -116,9 +116,14 @@ img.banner-top-image {
     color: #fff;
 }
 
+/* C++ PDF section styling */
 .para_wrap {
     background: #170617;
     color: #fff;
+}
+
+.para_wrap span.p_color {
+    font-weight: 500;
 }
 
 /* Why make a C++ PDF Library section styling */
@@ -127,7 +132,8 @@ img.banner-top-image {
     color: #fff;
     padding: 80px 0;
 }
-.why_make_wrap  h1{
+
+.why_make_wrap h1 {
     margin-bottom: 30px;
 }
 
