@@ -67,8 +67,35 @@ div#navbarNav a.nav-link {
     color: #FFFFFF;
 }
 
+div#navbarNav a.nav-link:hover {
+    color: #e01a59;
+    background-color: transparent;
+}
+
 nav.navbar {
     padding: 0 12px;
+}
+
+nav.navbar ul.dropdown-menu {
+    background: #141414;
+    border-bottom: 0 solid #1f1f1f;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, .33);
+}
+
+nav.navbar .dropdown-item {
+    color: #fff;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+nav.navbar .dropdown-item:focus,
+nav.navbar .dropdown-item:hover {
+    color: #e01a59;
+    background-color: transparent;
 }
 
 /* Banner Section  */
@@ -77,7 +104,7 @@ nav.navbar {
 }
 
 img.banner-top-image {
-    width: 543px;
+    width: 650px;
     top: 7px;
     right: 0;
     position: absolute;
@@ -141,6 +168,12 @@ img.banner-top-image {
     align-items: center;
     text-align: center;
     color: #FFFFFF;
+}
+
+.sign_up_form button:hover {
+    background: #c9041e !important;
+    border-color: #c9041e !important;
+    color: #fff;
 }
 
 i.fa.fa-caret-right:before {
@@ -335,4 +368,10 @@ span.header_color {
     background: #E01A59;
     border-radius: 27px;
     margin-top: -3px;
+}
+
+.footer button:hover {
+    background: #c9041e !important;
+    border-color: #c9041e !important;
+    color: #fff;
 }

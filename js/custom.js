@@ -16,3 +16,4 @@ function hideDropdownMenu() {
     var dropdownMenu = this.querySelector('.dropdown-menu');
     dropdownMenu.style.display = 'none';
 }
+
