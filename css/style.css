@@ -57,7 +57,21 @@ span.badge {
     color: #C6AAC6;
 }
 
+div#navbarNav a.nav-link {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
 
+nav.navbar {
+    padding: 0 12px;
+}
+
+/* Banner Section  */
 .pdf_banner {
     color: #fff;
 }
@@ -73,6 +87,19 @@ img.banner-top-image {
     padding: 120px 0 30px;
 }
 
+.banner_text h5 {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.banner_text span.coming-p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 28px;
+    color: #8F618F;
+}
+
+/* SignUp form section styling */
 .sign_up_form {
     background: linear-gradient(90deg, #8E608E 28.16%, #402640 67.82%, #371A34 83.75%);
 }
