@@ -22,7 +22,7 @@ h1 {
 p {
     font-style: normal;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 28px;
     color: #FFFFFF;
     margin: 0;
@@ -121,10 +121,21 @@ img.banner-top-image {
     color: #fff;
 }
 
+/* Why make a C++ PDF Library section styling */
 .why_make_wrap {
     background: #402640;
     color: #fff;
-    padding: 100px 0;
+    padding: 80px 0;
+}
+.why_make_wrap  h1{
+    margin-bottom: 30px;
+}
+
+.why_make_wrap img.card-img-top {
+    background-image: url('../img/Union.svg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
 }
 
 /* Early Access section styling */
@@ -134,7 +145,7 @@ img.banner-top-image {
     background-position: center center;
     background-size: cover;
     color: #fff;
-    padding: 80px 0;
+    padding: 60px 0;
 }
 
 .access_wrap .card {
