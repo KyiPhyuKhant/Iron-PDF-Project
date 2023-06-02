@@ -418,38 +418,6 @@ span.header_color {
     margin: 25px auto;
 }
 
-/* .footer form input.form-control {
-    border: 0;
-    padding: 12px 0;
-    background: transparent;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    color: #181818;
-}
-
-.footer button.btn.btn-primary {
-    border: 0 !important;
-    text-decoration: none;
-    text-align: center;
-    font-size: 14px;
-    vertical-align: middle;
-    padding: 0px 20px;
-    width: 180px;
-    height: 50px;
-    background: #E01A59;
-    border-radius: 27px;
-    margin-top: -3px;
-}
-
-.footer button:hover {
-    background: #c9041e !important;
-    border-color: #c9041e !important;
-    color: #fff;
-} */
-
-
-
 .footer form input.form-control {
     border: 0;
     font-weight: 500;
