@@ -28,6 +28,11 @@ p {
     margin: 0;
 }
 
+.hover-effect {
+    color: #c9041e;
+    font-weight: bold;
+}
+
 span.p_color {
     font-weight: 500;
 }
@@ -126,6 +131,10 @@ img.banner-top-image {
     color: #8F618F;
 }
 
+.banner_text span.coming-p:hover {
+    color: #c9041e;
+}
+
 /* SignUp form section styling */
 .sign_up_form {
     background: linear-gradient(90deg, #8E608E 28.16%, #402640 67.82%, #371A34 83.75%);
@@ -203,6 +212,10 @@ i.fa.fa-caret-right {
     float: left;
 }
 
+.sign_up_form span.badge:hover {
+    color: #c9041e;
+}
+
 /* coming soon section styling */
 .coming_wrap {
     background: #2C0F29;
@@ -242,6 +255,10 @@ i.fa.fa-caret-right {
 
 .para_wrap span.p_color {
     font-weight: 500;
+}
+
+.para_wrap span.p_color:hover {
+    color: #c9041e;
 }
 
 /* Why make a C++ PDF Library section styling */
@@ -284,6 +301,42 @@ i.fa.fa-caret-right {
     border-radius: 122px;
 }
 
+.access_wrap .card {
+    transition: box-shadow 0.3s;
+}
+
+.access_wrap .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: shake 1s;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-10px);
+    }
+
+    40% {
+        transform: translateX(10px);
+    }
+
+    60% {
+        transform: translateX(-10px);
+    }
+
+    80% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
 .access_wrap .card .card-body .row {
     display: flex;
     align-items: center;
@@ -307,6 +360,15 @@ i.fa.fa-caret-right {
     height: 34px;
     background: #331433;
     color: #C6AAC6;
+}
+
+.access_wrap .card .badge {
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.access_wrap .card .badge:hover {
+    color: #c9041e;
 }
 
 .access_wrap .card img.card-img-top {
@@ -344,6 +406,7 @@ span.header_color {
     border: 3px solid #E7EEF0;
     border-radius: 81px;
 }
+
 .footer form {
     align-items: center;
     padding: 0px 0px 0px 10px;
